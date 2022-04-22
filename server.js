@@ -1,3 +1,9 @@
-const http = require('http');
-const host = 'localhost';
-const port = 3000;
+const express = require('express');
+const app = express();
+const port = process.env.port || 3000;
+
+app.use('/', require("./routes"))
+
+app.listen(port, () => {
+    console.log(`I'm listening to the port ${port}`);
+})

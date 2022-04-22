@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "cse341 repository",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emily-purser/CSE341-Node.git"
+  },
+  "keywords": [
+    "CSE341"
+  ],
+  "author": "Emily Purser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emily-purser/CSE341-Node/issues"
+  },
+  "homepage": "https://github.com/emily-purser/CSE341-Node#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
