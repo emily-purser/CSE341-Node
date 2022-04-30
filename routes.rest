@@ -1,0 +1,17 @@
+GET http://localhost:3002/contacts
+###
+GET http://localhost:3002/contacts/626b09a615c2ba723e5e609b
+###
+GET http://localhost:3002/contacts/626b0a2915c2ba723e5e609c
+###
+GET http://localhost:3002/contacts/626b0a6115c2ba723e5e609d
+
+// Heroku
+### 
+GET https://cse341-emily-purser.herokuapp.com/contacts 
+###
+GET https://cse341-emily-purser.herokuapp.com/contacts/626b09a615c2ba723e5e609b
+###
+GET https://cse341-emily-purser.herokuapp.com/contacts/626b0a2915c2ba723e5e609c
+###
+GET https://cse341-emily-purser.herokuapp.com/contacts/626b0a6115c2ba723e5e609d

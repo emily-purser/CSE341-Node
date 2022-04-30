@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Sariah",
+      "lastName": "Schmelter",
+      "email": "SariahSchmelter@email.com",
+      "favoriteColor": "Red",
+      "birthday": "10/20/2000"
+    },
+    "contact2": {
+      "firstName": "Nicole",
+      "lastName": "Purser",
+      "email": "NicolePurser@email.com",
+      "favoriteColor": "Green",
+      "birthday": "07/01/2002"
+    },
+    "contact3": {
+      "firstName": "Grace",
+      "lastName": "Purser",
+      "email": "gracepurser@email.com",
+      "favoriteColor": "Blue",
+      "birthday": "09/29/2006"
+    }
+  }
