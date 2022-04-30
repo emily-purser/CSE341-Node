@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require("./db/connection");
 const app = express();
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json())
 .use((req, res, next) => {
@@ -11,10 +11,6 @@ app.use(bodyParser.json())
 })
 .use('/', require('./routes'));
 
-// mongodb.connect();
-// app.listen(port, () => {
-//     console.log(`I'm listening to the port ${port}`);
-// })
 mongodb.initDb((err, mongodb) => {
     if (err) {
       console.log(err);
