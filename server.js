@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongodb = require('../CSE341-Node/db/connection');
+const mongodb = require("./db/connection");
 const app = express();
 const port = process.env.PORT || 3002;
 
@@ -22,4 +22,4 @@ mongodb.initDb((err, mongodb) => {
       app.listen(port);
       console.log(`Connected to DB and listening on ${port}`);
     }
-  });
+});
