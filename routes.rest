@@ -1,10 +1,10 @@
-GET http://localhost:3002/contacts
+GET http://localhost:3000/contacts
 ###
-GET http://localhost:3002/contacts/626b09a615c2ba723e5e609b
+GET http://localhost:3000/contacts/626b09a615c2ba723e5e609b
 ###
-GET http://localhost:3002/contacts/626b0a2915c2ba723e5e609c
+GET http://localhost:3000/contacts/626b0a2915c2ba723e5e609c
 ###
-GET http://localhost:3002/contacts/626b0a6115c2ba723e5e609d
+GET http://localhost:3000/contacts/626b0a6115c2ba723e5e609d
 
 // Heroku
 ### 
