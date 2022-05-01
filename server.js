@@ -1,8 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongodb = require("./db/connection");
-const app = express();
+const mongodb = require('./db/connection');
+
 const port = process.env.PORT || 3002;
+const app = express();
 
 app.use(bodyParser.json())
 .use((req, res, next) => {
