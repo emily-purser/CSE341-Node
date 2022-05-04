@@ -5,6 +5,30 @@ GET http://localhost:3000/contacts/626b09a615c2ba723e5e609b
 GET http://localhost:3000/contacts/626b0a2915c2ba723e5e609c
 ###
 GET http://localhost:3000/contacts/626b0a6115c2ba723e5e609d
+###
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Kelli",
+    "lastName": "Purser",
+    "email": "kellipurser@email.com",
+    "favoriteColor": "Red",
+    "birthday": "05/25/1975"
+}
+###
+DELETE http://localhost:3000/contacts/6272b87c52ace30229081274 HTTP/1.1
+###
+PUT http://localhost:3000/contacts/626b09a615c2ba723e5e609b HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Sariah",
+    "lastName": "Purser",
+    "email": "sariahpurser@email.com",
+    "favoriteColor": "Sage Green",
+    "birthday": "10/20/2000"
+}
 
 // Heroku
 ### 
@@ -15,3 +39,27 @@ GET https://cse341-emily-purser.herokuapp.com/contacts/626b09a615c2ba723e5e609b
 GET https://cse341-emily-purser.herokuapp.com/contacts/626b0a2915c2ba723e5e609c
 ###
 GET https://cse341-emily-purser.herokuapp.com/contacts/626b0a6115c2ba723e5e609d
+###
+POST http://cse341-emily-purser.herokuapp.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Kelli",
+    "lastName": "Purser",
+    "email": "kellipurser@email.com",
+    "favoriteColor": "Red",
+    "birthday": "05/25/1975"
+}
+###
+DELETE http://cse341-emily-purser.herokuapp.com/contacts/6272b87c52ace30229081274 HTTP/1.1
+###
+PUT http://cse341-emily-purser.herokuapp.com/contacts/626b09a615c2ba723e5e609b HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Sariah",
+    "lastName": "Purser",
+    "email": "sariahpurser@email.com",
+    "favoriteColor": "Sage Green",
+    "birthday": "10/20/2000"
+}
